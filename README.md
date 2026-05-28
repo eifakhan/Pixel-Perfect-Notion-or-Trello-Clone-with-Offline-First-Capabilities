@@ -2,6 +2,9 @@
 
 A pixel-perfect, offline-first Kanban board built with React + Tailwind CSS. Inspired by Notion and Trello — but lighter and fully offline-capable via IndexedDB.
 
+# Live Demo
+https://pixel-perfect-notion-or-trello-clon-ashen.vercel.app/
+
 ## Features
 
 - ✅ Drag-and-drop cards and columns (dnd-kit)
