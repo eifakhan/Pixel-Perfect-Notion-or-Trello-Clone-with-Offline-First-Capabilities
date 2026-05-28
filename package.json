@@ -19,12 +19,15 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
+"engines": {
+  "node": ">=14.0.0"
+},
   "eslintConfig": {
     "extends": ["react-app"]
   },
