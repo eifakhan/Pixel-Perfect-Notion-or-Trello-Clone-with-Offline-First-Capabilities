@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Modal } from "../UI/Modal";
-import { Tag, PriorityBadge } from "../UI/Badge";
+import { Tag } from "../UI/Badge";
 import { Trash2, Plus, X, Check } from "lucide-react";
 import { v4 as uuidv4 } from "uuid";
 
