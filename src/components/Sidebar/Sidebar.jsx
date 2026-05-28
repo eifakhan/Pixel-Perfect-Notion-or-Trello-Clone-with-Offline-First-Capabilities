@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { Plus, Layout, Wifi, WifiOff, Settings, Trash2, X, Monitor, Moon, Sun, Info } from "lucide-react";
+import { Plus, Layout, Wifi, WifiOff, Settings, Trash2 } from "lucide-react";
 import { Modal } from "../UI/Modal";
 
 const BOARD_COLORS = ["#e85d2f", "#3b82f6", "#22c55e", "#8b5cf6", "#eab308", "#ef4444"];
 const BOARD_EMOJIS = ["🚀", "📋", "💡", "🎯", "🏗️", "📦", "🌿", "⚡", "🔥", "🎨"];
 
 function SettingsModal({ open, onClose }) {
-  const [theme, setTheme] = useState("light");
 
   const clearData = () => {
     if (window.confirm("This will delete ALL your boards and cards. Are you sure?")) {

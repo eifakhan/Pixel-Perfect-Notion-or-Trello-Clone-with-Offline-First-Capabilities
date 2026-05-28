@@ -13,7 +13,7 @@ import { arrayMove, sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import { Column } from "./Column";
 import { CardItem } from "../Card/CardItem";
 import { CardDetail } from "../Card/CardDetail";
-import { Plus, Search, Filter } from "lucide-react";
+import { Plus, Search} from "lucide-react";
 
 export function BoardView({ board, columns, cards, actions }) {
   const [activeCard, setActiveCard] = useState(null);
